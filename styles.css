@@ -1,0 +1,79 @@
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 16px;
+    background: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0052a3;
+}
+
+.user-card {
+    background: #f8f9fa;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #e9ecef;
+}
+
+.error {
+    color: #dc3545;
+    padding: 10px;
+    background: #f8d7da;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.loading {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+.skills-list {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.skill-tag {
+    background: #e9ecef;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}

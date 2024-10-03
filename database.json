@@ -1,0 +1,29 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john@example.com",
+        "city": "New York",
+        "skills": ["JavaScript", "Python", "SQL"]
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "city": "San Francisco",
+        "skills": ["React", "Node.js", "TypeScript"]
+      },
+      {
+        "id": 3,
+        "name": "Bob Johnson",
+        "email": "bob@example.com",
+        "city": "Chicago",
+        "skills": ["Python", "Django", "PostgreSQL"]
+      }
+    ],
+    "metadata": {
+      "lastUpdated": "2024-03-01",
+      "version": "1.0"
+    }
+}
